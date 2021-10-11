@@ -1,0 +1,237 @@
+[Common]
+
+Language=$401
+LangId=1
+SublangId=1
+
+[MainForm]
+
+ScanBTN.Caption=Сканировать
+SaveBTN.Caption=Сохранить отчет
+ExitBTN.Caption=Выход
+
+SOURCESTRING.Item[0]=[Монитор]
+SOURCESTRING.Item[1]=Инициализация сканера...
+SOURCESTRING.Item[2]=Загрузка API модулей.
+SOURCESTRING.Item[3]=Загрузка базы данных.
+SOURCESTRING.Item[4]=Создание списка устройств.
+SOURCESTRING.Item[5]=Файл конфигураци не наиден!
+SOURCESTRING.Item[6]=Загрузка файла конфигурации.
+SOURCESTRING.Item[7]=Инициализация процедур сканирования.
+SOURCESTRING.Item[8]=Инициализация самозащиты.
+SOURCESTRING.Item[9]=При инициализации сканера произошла ошибка!
+SOURCESTRING.Item[10]====================================================================================
+SOURCESTRING.Item[11]=Размер базы данных: 
+SOURCESTRING.Item[12]=Объект сканирования: 
+SOURCESTRING.Item[13]=Сканирование запущено
+SOURCESTRING.Item[14]=Сканирование завершено
+SOURCESTRING.Item[15]=Подготовка к сканированию, пожалуйста ждите...
+SOURCESTRING.Item[16]=Файлов пропущено: 
+SOURCESTRING.Item[17]=Файлов заражено: 
+SOURCESTRING.Item[18]=Файлов проверено: 
+SOURCESTRING.Item[19]=Объем провереных данных: 
+SOURCESTRING.Item[20]=Пропущен
+SOURCESTRING.Item[21]=Пропущен из за большого размера
+SOURCESTRING.Item[22]=Заражен
+SOURCESTRING.Item[23]=Остановить
+SOURCESTRING.Item[24]=Назад
+SOURCESTRING.Item[25]=Сканировать
+SOURCESTRING.Item[26]=[Проверка файла] 
+SOURCESTRING.Item[27]=Удален пользователем >> 
+SOURCESTRING.Item[28]=Ошибка при удалении >> 
+SOURCESTRING.Item[29]=Область сканирования не выбранна,  или указанного пути не существует!
+SOURCESTRING.Item[30]=Сканировать в AiD Scanner...
+SOURCESTRING.Item[31]=Версия AiD Scanner: 
+SOURCESTRING.Item[32]=Версия ядра AiD: 
+SOURCESTRING.Item[33]=Дата сборки: 
+SOURCESTRING.Item[34]=Вы уверены что хотите удалить этот файл?
+SOURCESTRING.Item[35]=Вы уверены что хотите удалить все инфицированные файлы?
+SOURCESTRING.Item[36]=Произошла ошибка при удалении файла! Возможно файл занят другим процессом или программой.
+SOURCESTRING.Item[37]=Файл помощи не наиден!
+SOURCESTRING.Item[38]=Внимание! Было зафиксированно изменение контрольной суммы AiD Scanner. Возможно заражение вирусом! avShield попытается восстановить исходный файл.
+SOURCESTRING.Item[39]=Внимание в процессе работы сканера произошла ошибка!
+SOURCESTRING.Item[40]=Результат очистки: 
+SOURCESTRING.Item[41]=>> Всего инфицированных: 
+SOURCESTRING.Item[42]=>> Удалено инфицированных: 
+SOURCESTRING.Item[43]=>> Пропущенно инфицированных: 
+SOURCESTRING.Item[44]=Вы действительно хотите выйти из AiD Scanner?
+SOURCESTRING.Item[45]=Процесс сканирования уже запущен. Подождите его оканчания и повторите попытку.
+SOURCESTRING.Item[46]=[AiD Process Control]
+SOURCESTRING.Item[47]=Невозможно убить процесс!
+SOURCESTRING.Item[48]=Активен
+SOURCESTRING.Item[49]=Приостановлен
+SOURCESTRING.Item[50]=Не активен
+SOURCESTRING.Item[51]=AiD Process Control Запущен
+SOURCESTRING.Item[52]=AiD Process Control Приостановлен
+SOURCESTRING.Item[53]=AiD Process Control Остановлен
+SOURCESTRING.Item[54]=AiD Process Control Возабнавлен
+SOURCESTRING.Item[55]=Последнее обновление от: 
+SOURCESTRING.Item[56]=обновление от: 
+SOURCESTRING.Item[57]=Загруженна база: 
+SOURCESTRING.Item[58]=Предупреждение
+SOURCESTRING.Item[59]=Внимание! Не загруженны базы сигнатур!
+SOURCESTRING.Item[60]=Произошла ошибка при сканировании! Небыли загруженны базы сигнатур, дальнейшее сканирование невозможно. Проверьте правильность пути к базам сигнатур. Если у вас отсутствуют базы сигнатур, вы можете скачать их на нашем сайте www.bit-lab.info';
+SOURCESTRING.Item[61]=Модуль загружен. Пожалуйста перезапустите программу.
+SOURCESTRING.Item[62]=Модуль выгружен. Пожалуйста перезапустите программу.
+
+ScanTopBtn.Caption=Сканирование
+OptionTopBtn.Caption=Настроика
+PCTopBtn.Caption=AiD Process Control
+CopyRightLabel.Caption=Произведено в bit-lab ©
+AboutBTN.Caption=О программе
+HelpBTN.Caption=Помощь
+AddFolder.Caption=Добавить область сканирования
+DeletePath.Caption=Удалить область сканирования
+Reftesh.Caption=Обновить список
+Del.Caption=Удалить инфицированный файл
+DelAll.Caption=Удалить все инфицированные файлы
+
+mnuShowAiDScanner.Caption=Показать AiD Scanner
+mnuHideAiDScanner.Caption=Скрыть AiD Scanner
+mnuAiDProcessControl.Caption=AiD Process Control
+mnuPCShow.Caption=Показать
+mnuPCRun.Caption=Запустить
+mnuPCPause.Caption=Приостановить
+mnuPCStop.Caption=Остановить
+mnuOptions.Caption=Настройка
+mnuHelp.Caption=Помощь
+mnuAbout.Caption=О программе
+mnuExit.Caption=Выход
+mnuSelScanPath.Caption=Область сканирования
+mnuScanStart.Caption=Начать сканирование
+mnuStopScan.Caption=Остановить сканирование
+mnuShowReport.Caption=Просмотреть отчет
+mnuSaveReport.Caption=Сохранить отчет
+mnuGoToTray.Caption=Фоновый режим
+
+[ActionForm]
+
+ActionForm.Caption=Внимание! Наиден зараженный объект
+DeleteVir.Caption=Удалить
+SkipVir.Caption=Пропустить
+
+ApplyToAll_Check.Caption=Применить ко всем зараженным объектам
+
+InfoInfectedBox.Caption= Информация 
+VirInfo_2.Caption=Необходимо удалить инфицированный объект, так как он является  носителем вредоносной программы, что может привести к порче или потере информации.
+VirInfo_1.Caption=Рекомендации:
+VirInfo_0.Caption=Внимание был наиден инфицированный объект! 
+
+InfoVirusInfo.Caption= Зараженный объект 
+InformationLabel.Caption=Внимание!
+InfoLabel.Caption=Наиден зараженный объект
+
+[MonitorForm]
+
+MonitorForm.Caption=AiD Process Control
+InformationLabel.Caption=AiD Process Control
+InfoLabel.Caption=Контроль за запускаемыми процессами в системе
+
+StartPC.Caption=Запустить
+PausePC.Caption=Приостановить
+ClosePC.Caption=Закрыть
+
+LastInfectBox.Caption= Последний инфицированный объект 
+LastFileBox.Caption= Последний проверенный объект 
+InfoPCLabel.Caption= Статистика 
+PCScaned.Caption=Проверено:
+PCInfected.Caption=Инфицировано:
+PCStat.Caption=Статус:
+PCTime.Caption=Общее время работы:
+StopPC.Caption=Завершить
+
+[HideForm]
+
+HideForm.Caption=Минимизированный режим
+HideTipLabel.Caption=AiD Scanner был минимизирован в системный трей. Для доступа к меню нажмите правой кнопкой мыши на значек AiD Scanner.
+ShowHideTip.Caption=Больше не показывать это сообщение
+InformationLabel.Caption=Информация
+InfoLabel.Caption=Минимизированный режим.
+
+[AboutForm]
+
+AboutForm.Caption=О программе
+NameToLabel.Caption=AiD Scanner free Antivirus
+inWebLabel.Caption=Web-сайт
+LinkLabel.Caption=www.bit-lab.info
+smallLicenseLabel.Caption=Предупреждение: Эта программа является собственностью bit-lab. Копирование или распространение для получения какой либо коммерческой выгоды, без специального разрешения bit-lab, строго запрещено.
+CopyRightLabel.Caption=Произведено © bit-lab 2008 Все права защищены.
+InfoBox.Caption= Информация о версии 
+
+[AddUserPathForm]
+
+AddUserPathForm.Caption=Область сканирования
+InformationLabel.Caption=Область сканирования
+InfoLabel.Caption=Добавление новой области сканирования.
+ApplyBTN.Caption=Принять
+CanselBTN.Caption=Отмена
+
+[OptionsForm]
+
+OptionsForm.Caption=Настройка
+InformationLabel.Caption=Настройка
+InfoLabel.Caption=Настройка конфигурации AiD Scanner.
+ApplyBTN.Caption=Принять
+CanselBTN.Caption=Отмена
+
+optTabMain.Caption=Главное
+
+DBDirLabel.Caption=Директория баз данных:
+optPathesLabel.Caption=Пути загрузки баз данных и модулей   
+ModDirLabel.Caption=Директория модулей:
+optScanLabel.Caption=Сканирование   
+SCNSUBDIR.Caption=Сканировать подкаталоги
+SCNHEX.Caption=Использовать метод сигнатурного поиска
+SCNCRC.Caption=Использовать метод поиска по контрольной сумме
+SCNHEXINPOS.Caption=Использовать метод поиска по HEX строке в заданной позиции
+SCNBIT.Caption=Использовать метод поиска по байтовым сигнатурам
+
+optTabPC.Caption=AiD Process Control
+
+optPCLabel.Caption=AiD Process Control   
+optPCInfoLabel.Caption=(AiD Process Control) - Система автоматического обнаружения инфицированных объектов, путем проверки запускаемых процессов в системе. При обнаружении инфицированного объекта он автоматически будет выгружен из памяти, а пользователю будут предложены дальнейшие действия с ним.
+PCAutoLoad.Caption=Запускать автоматически
+PCAutoKill.Caption=Убивать инфицированные процессы
+PCAutoAction.Caption=Выполнять следующее действие с инфицированным объектом:
+PCDelInfect.Caption=Удалять инфицированный файл
+PCSkipInfect.Caption=Пропускать инфицированный файл
+
+optTabOther.Caption=Дополнительно
+
+optReportLabel.Caption=Отчет   
+optSysLabel.Caption=Системные настройки   
+optShieldLabel.Caption=Самозащита (avShield)   
+AutoSaveReport.Caption=Автоматическое сохранениие отчета
+ReportSavePath.Caption=AiDReport.Log
+DisplayScnFiles.Caption=Отображать проверяемые файлы в отчете
+RegisterSysMenu.Caption=Регистрировать AiD Scanner в системном меню Windows
+USESHIELD.Caption=Использовать самозащиту
+SHIELDSILENT.Caption=Тихий режим
+AUTORUN.Caption=Запускать с Windows
+AUTOHIDE.Caption=Запускать скрытым
+
+optTabFilter.Caption=Фильтр сканирования
+
+optTabPathes.Caption=Пути сканирования
+
+optTabModules.Caption=Модули
+
+optModInfLabel.Caption=Модули   
+optModListLabel.Caption=Список модулей   
+ModulesLOAD.Caption=Загружать модули
+
+[InformationForm]
+InformationForm.Caption=Информация
+InformationLabel.Caption=Информация
+InfoLabel.Caption=Просмотр информации о выбраном элементе.
+
+[PluginAPIForm]
+
+PluginAPIForm.Caption=Информация о модуле
+NameLabel.Caption=Имя плагина:
+AutorLabel.Caption=Автор плагина:
+OtherInfoLabel.Caption=Дополнительная информация:
+PathLabel.Caption=Размещение:
+InformationLabel.Caption=Информация
+InfoLabel.Caption=Просмотр информации о выбраном модуле.
+LoadUploadBTN.Caption=Загрузить \ Выгрузить
